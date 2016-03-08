@@ -1,25 +1,25 @@
 # Animations
 示例效果图。
 
-## Property Animator
+## 1. Property Animator
 
-### 1 Using ObjectAnimator in Java
+### 1.1 Using ObjectAnimator in Java
 
 ![](screenshot/12.gif)
 
-### 2 Choreographing Animations
+### 1.2 Choreographing Animations
 
 ![](screenshot/13.gif)
 
-### 3 Using ViewPropertyAnimator in Java
+### 1.3 Using ViewPropertyAnimator in Java
 
 ![](screenshot/14.gif)
 
-### 4 Using XML
+### 1.4 Using XML
 
 ![](screenshot/15.gif)
 
-### 5 Custom Animations with ValueAnimator
+### 1.5 Custom Animations with ValueAnimator
 
 ```
 03-08 22:58:32.232 19058-19058/com.aaron.codepathfullstack D/ValueAnimatorActivity: value is 1.0
@@ -34,22 +34,22 @@
 ......
 ```
 
-## View Animations
+## 2. View Animations
 
-### 1 Using XML
+### 2.1 Using XML
 
 ![](screenshot/20.gif)
 
-### 2 Activity Transitions
+### 2.2 Activity Transitions
 
 ![](screenshot/17.gif)
 
-### 3 Modifying the Default Transitions
+### 2.3 Modifying the Default Transitions
 
-### 4 Fragment Transitions
+### 2.4 Fragment Transitions
 
 ![](screenshot/18.gif)
 
-### 5 Layout Animations
+### 2.5 Layout Animations
 
 ![](screenshot/19.gif)
