@@ -15,4 +15,10 @@
     <string name="action_view_animator">View Animator</string>
     <string name="action_activity_transition">Activity Transition</string>
     <string name="title_activity_second">SecondActivity</string>
+    <string name="action_fragment_transition">Fragment Transitions</string>
+    <string name="title_activity_fragment_transition">FragmentTransitionActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">First</string>
+    <string name="hello_blank_fragment2">Second</string>
 </resources>

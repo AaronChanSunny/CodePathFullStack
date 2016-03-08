@@ -82,6 +82,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.aaron.codepathfullstack.MainActivity"/>
         </activity>
+        <activity
+            android:name=".FragmentTransitionActivity"
+            android:label="@string/title_activity_fragment_transition"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aaron.codepathfullstack.MainActivity"/>
+        </activity>
     </application>
 
 </manifest>

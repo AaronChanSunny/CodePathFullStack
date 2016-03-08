@@ -78,6 +78,10 @@ public class MainActivity extends AppCompatActivity {
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             return true;
         }
+        if (id == R.id.action_fragment_transition) {
+            startActivity(new Intent(this, FragmentTransitionActivity.class));
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
