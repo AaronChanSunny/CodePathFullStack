@@ -31,4 +31,8 @@
         android:id="@+id/action_view_animator"
         android:title="@string/action_view_animator"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_activity_transition"
+        android:title="@string/action_activity_transition"
+        app:showAsAction="never"/>
 </menu>

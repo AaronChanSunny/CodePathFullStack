@@ -13,4 +13,6 @@
     <string name="action_value_animator">Value Animator</string>
     <string name="title_activity_view_animator">ViewAnimatorActivity</string>
     <string name="action_view_animator">View Animator</string>
+    <string name="action_activity_transition">Activity Transition</string>
+    <string name="title_activity_second">SecondActivity</string>
 </resources>

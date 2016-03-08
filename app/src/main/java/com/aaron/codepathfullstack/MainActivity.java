@@ -73,6 +73,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this, ViewAnimatorActivity.class));
             return true;
         }
+        if (id == R.id.action_activity_transition) {
+            startActivity(new Intent(this, SecondActivity.class));
+            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
