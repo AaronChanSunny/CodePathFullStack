@@ -21,4 +21,6 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment1">First</string>
     <string name="hello_blank_fragment2">Second</string>
+    <string name="title_activity_layout_animation">LayoutAnimationActivity</string>
+    <string name="action_layout_animation">Layout Animation</string>
 </resources>

@@ -39,4 +39,8 @@
         android:id="@+id/action_fragment_transition"
         android:title="@string/action_fragment_transition"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_layout_animation"
+        android:title="@string/action_layout_animation"
+        app:showAsAction="never"/>
 </menu>

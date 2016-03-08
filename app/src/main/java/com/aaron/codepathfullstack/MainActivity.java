@@ -82,6 +82,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this, FragmentTransitionActivity.class));
             return true;
         }
+        if (id == R.id.action_layout_animation) {
+            startActivity(new Intent(this, LayoutAnimationActivity.class));
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
