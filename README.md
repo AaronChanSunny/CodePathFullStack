@@ -1,6 +1,17 @@
-# CodePathFullStack
-CodePath Android Guides Code Repo.
+# Animations
+示例效果图。
 
-## Sample Code
+## Using ObjectAnimator in Java
 
-- **Drawables** guide on branch [guide/drawable](https://github.com/AaronChanSunny/CodePathFullStack/tree/guide/drawable)
+!()[]
+
+## Choreographing Animations
+
+!()[]
+
+## Using ViewPropertyAnimator in Java
+
+!()[]
+
+## Using XML
+
