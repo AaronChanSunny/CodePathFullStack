@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">CodePath Full Stack</string>
     <string name="action_settings">Settings</string>
+    <string name="action_simple">Simple</string>
+    <string name="title_activity_simple">SimpleActivity</string>
+    <string name="title_activity_animator_set">AnimatorSetActivity</string>
+    <string name="action_animator_set">Set</string>
+    <string name="title_activity_view_property_animator">ViewPropertyAnimatorActivity</string>
+    <string name="action_view_property_animator">View Property Animator</string>
+    <string name="title_activity_using_xml">usingXmlActivity</string>
+    <string name="action_using_xml">Using Xml</string>
 </resources>

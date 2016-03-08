@@ -7,4 +7,20 @@
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_simple"
+        android:title="@string/action_simple"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_animator_set"
+        android:title="@string/action_animator_set"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_view_property_animator"
+        android:title="@string/action_view_property_animator"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_using_xml"
+        android:title="@string/action_using_xml"
+        app:showAsAction="never"/>
 </menu>

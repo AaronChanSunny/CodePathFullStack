@@ -1,15 +1,18 @@
 package com.aaron.codepathfullstack;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
+
+    private static final String TAG = MainActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +47,22 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            return true;
+        }
+        if (id == R.id.action_simple) {
+            startActivity(new Intent(this, SimpleActivity.class));
+            return true;
+        }
+        if (id == R.id.action_animator_set) {
+            startActivity(new Intent(this, AnimatorSetActivity.class));
+            return true;
+        }
+        if (id == R.id.action_view_property_animator) {
+            startActivity(new Intent(this, ViewPropertyAnimatorActivity.class));
+            return true;
+        }
+        if (id == R.id.action_using_xml) {
+            startActivity(new Intent(this, UsingXmlActivity.class));
             return true;
         }
 
