@@ -20,6 +20,7 @@
 ### 4.  Layer List Drawable
 
 ![](screenshot/device-2016-03-08-113556.png)
+![](screenshot/device-cube.png)
 
 ### 5.  Customizing a ListView
 

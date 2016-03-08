@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -18,4 +19,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
-</RelativeLayout>
+    <ImageView
+        android:src="@drawable/layer_list_cube"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+</LinearLayout>
