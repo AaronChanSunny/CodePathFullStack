@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -14,7 +15,52 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
+        android:textColor="@android:color/white"
+        android:background="@drawable/solid_color_shape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
-</RelativeLayout>
+
+    <Button
+        android:text="Submit"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/gradient_shape"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Large Text"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/gradient_shape_radial"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Button"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/selector_button_bg"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/layer_list"
+        style="@style/NiceButton"
+        android:textAllCaps="false"
+        android:text="Layer List"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/custom_list_view"
+        android:text="Custom ListView"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
