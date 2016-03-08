@@ -9,4 +9,8 @@
     <string name="action_view_property_animator">View Property Animator</string>
     <string name="title_activity_using_xml">usingXmlActivity</string>
     <string name="action_using_xml">Using Xml</string>
+    <string name="title_activity_value_animaor">ValueAnimaorActivity</string>
+    <string name="action_value_animator">Value Animator</string>
+    <string name="title_activity_view_animator">ViewAnimatorActivity</string>
+    <string name="action_view_animator">View Animator</string>
 </resources>

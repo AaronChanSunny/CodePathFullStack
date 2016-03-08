@@ -65,6 +65,14 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this, UsingXmlActivity.class));
             return true;
         }
+        if (id == R.id.action_value_animator) {
+            startActivity(new Intent(this, ValueAnimatorActivity.class));
+            return true;
+        }
+        if (id == R.id.action_view_animator) {
+            startActivity(new Intent(this, ViewAnimatorActivity.class));
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }

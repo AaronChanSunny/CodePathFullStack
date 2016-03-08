@@ -23,4 +23,12 @@
         android:id="@+id/action_using_xml"
         android:title="@string/action_using_xml"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_value_animator"
+        android:title="@string/action_value_animator"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_view_animator"
+        android:title="@string/action_view_animator"
+        app:showAsAction="never"/>
 </menu>
