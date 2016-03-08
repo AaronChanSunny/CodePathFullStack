@@ -23,4 +23,5 @@
     <string name="hello_blank_fragment2">Second</string>
     <string name="title_activity_layout_animation">LayoutAnimationActivity</string>
     <string name="action_layout_animation">Layout Animation</string>
+    <string name="action_add">Add</string>
 </resources>

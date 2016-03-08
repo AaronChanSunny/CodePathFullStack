@@ -13,16 +13,10 @@
     tools:context="com.aaron.codepathfullstack.LayoutAnimationActivity"
     tools:showIn="@layout/activity_layout_animation">
 
-    <LinearLayout
-        android:orientation="vertical"
+    <ListView
+        android:animateLayoutChanges="true"
         android:layoutAnimation="@anim/layout_bottom_to_top_slide"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:text="Layout Animation"
-            style="@style/TextAppearance.AppCompat.Title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </LinearLayout>
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </RelativeLayout>
