@@ -1,8 +1,5 @@
-# CodePathFullStack
-CodePath Android Guides Code Repo.
+# Developing Custom Themes
 
-## Sample Code
+## 效果图
 
-- **Drawables** guide on branch [guide/drawable](https://github.com/AaronChanSunny/CodePathFullStack/tree/guide/drawable)
-- **Animations** guide on branch [guide/animation](https://github.com/AaronChanSunny/CodePathFullStack/tree/guide/animation)
-- **Cloning a Login Screen Layout Guide** guide on branch [guide/animation](https://github.com/AaronChanSunny/CodePathFullStack/tree/guide/clone-login-screen-layout)
+![](screenshot/device-2016-03-09-185113.png) ![](screenshot/device-2016-03-09-185210.png)
