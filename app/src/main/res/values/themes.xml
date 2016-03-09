@@ -13,7 +13,12 @@
     </style>
 
     <style name="Theme.YOUR_CUSTOM_THEME" parent="AppTheme.NoActionBar">
-        <item name="pageBackground">@style/page_background_black</item>
+        <item name="pageBackground">@style/page_background_bl</item>
+        <item name="textSubheader">@style/text_subheader_bl</item>
+        <item name="textLarge">@style/text_large_bl</item>
+        <item name="textRegular">@style/text_regular_bl</item>
+        <item name="whiteBackground">@style/white_background_bl</item>
+        <item name="button">@style/button_bl</item>
     </style>
 
 </resources>
