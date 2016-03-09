@@ -1,7 +1,5 @@
-# CodePathFullStack
-CodePath Android Guides Code Repo.
+# Cloning a Login Screen Layout Guide
 
-## Sample Code
+## 效果图
 
-- **Drawables** guide on branch [guide/drawable](https://github.com/AaronChanSunny/CodePathFullStack/tree/guide/drawable)
-- **Animations** guide on branch [guide/animation](https://github.com/AaronChanSunny/CodePathFullStack/tree/guide/animation)
+![](screenshot/device-2016-03-09-155308.png)
