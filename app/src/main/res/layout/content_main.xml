@@ -13,8 +13,34 @@
     tools:context="com.aaron.codepathfullstack.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <com.aaron.codepathfullstack.ShapeSelectorView
+        android:id="@+id/shape_selector"
         android:layout_width="wrap_content"
+        app:shapeColor="#7f0000"
+        app:displayShapeName="true"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_below="@id/shape_selector"
+        android:id="@+id/change_color_button"
+        android:textAllCaps="false"
+        android:text="Change Color"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_below="@id/change_color_button"
+        android:id="@+id/select_button"
+        android:textAllCaps="false"
+        android:text="Select"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 </RelativeLayout>
